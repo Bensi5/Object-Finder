@@ -1,0 +1,65 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    background-color: cyan;
+    color: fuchsia;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 0;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.heading:hover {
+    background-color: hotpink;
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+}
+
+.start {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.start:hover {
+    background-color: rgb(0, 78, 13);
+    color: white;
+}
+
+#number_of_objects, #status {
+    background-color: rgb(255, 0, 191);
+    color: white;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
+.copyright_footer {
+    background-color: indigo;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    box-shadow: 5px 5px 18px palevioletred;
+    text-shadow: 5px 5px 5px cyan;
+    line-height: 2;
+    margin-bottom: 0;
+    position: fixed;
+    font-size: 20px;
+}
+
+#number_of_objects:hover {
+    background-color: purple;
+    color: white;
+}
+
+#status:hover {
+    background-color: violet;
+    color: black;
+}
+
+#object_name {
+    width: 30%;
+}
