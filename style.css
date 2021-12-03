@@ -63,3 +63,6 @@ body {
 #object_name {
     width: 30%;
 }
+canvas{
+    margin-top:100px;
+}
